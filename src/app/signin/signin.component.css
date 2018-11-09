@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+form{
+  display: block;
+  margin-top: 0em;
+  border: 1px solid #d8dee2;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+.signin-container {
+  margin:0 auto;
+  width: 340px;
+}
+div{
+  display: block;
+}
+.signin-header h1{
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -.5px;
+  text-align: center;
+  margin-top: 100px;
+}
+label{
+  display: block;
+  cursor:default;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.email-input, .password-input{
+  display: block;
+  margin-bottom: 15px;
+  width:100%;
+  outline: none;
+  border: 1px solid #d1d5da;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+  font-size: 16px;
+  line-height: 20px;
+  padding:6px 8px;
+  background-color: #fff;
+  background-position: right 8px center;
+  background-repeat: no-repeat;
+}
+.email-input:focus, .password-input:focus{
+  border-color: #33cc33 !important;
+　-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,150,43,.6);
+　box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,150,43,.6);
+}
+.label-link{
+  float:right;
+  font-size: 12px;
+}
+a{
+  color: #0366d6;
+  text-decoration: none;
+}
+.submit-btn{
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  width:100%;
+  background-color: #28a745;
+  background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+  color:#fff;
+  background-size: 110% 110%;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 12px;
+  position: relative;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.create-account{
+  margin-top: 16px;
+  border: 1px solid #d8dee2;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-align: center;
+}
+p{
+  display: block;
+  margin-bottom: 10px;
+}
